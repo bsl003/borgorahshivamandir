@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <title>मंदिर का स्थान</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #fefcea, #f1da36);
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 30px 20px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #6c3483;
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+
+    .info {
+      font-size: 18px;
+      text-align: center;
+      color: #333;
+      margin-bottom: 20px;
+    }
+
+    .map {
+      width: 100%;
+      height: 500px;
+      border: 5px solid #a569bd;
+      border-radius: 15px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>मंदिर का स्थान (Satellite View)</h1>
+    <div class="info">
+      📍 <strong>Shiv Mandir, Borgorah</strong><br>
+      निर्देशांक: 27.9196208, 95.7216796<br>
+      नीचे का नक्शा satellite mode में है।
+    </div>
+
+    <iframe
+      class="map"
+      src="https://maps.google.com/maps?q=27.9196208,95.7216796&t=k&z=15&output=embed"
+      allowfullscreen>
+    </iframe>
+  </div>
+
+</body>
+</html>
